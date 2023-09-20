@@ -8,7 +8,7 @@ export const Encabezado = () => {
        <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@600&family=Heebo:wght@900&family=Outfit:wght@100;500;800&family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet"></link>
         <header className="header">
          
-        <ul className='navegador'>
+        <ul className='navegador titulo'>
         <a href="saferent.mx"><img className="logo" src="/Logosolo.png" alt=""/> <h1 className='Logoname'>SAFE HOME&RENT</h1>    </a>
             <li><a href="">Inicio</a></li>
             <li><a href="">Servicios</a>
