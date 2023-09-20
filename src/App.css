@@ -1,0 +1,365 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  
+}
+.ultimo a{
+  border-radius: 0rem 0 2rem 2rem;
+}
+
+.circle{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(rgb(2, 0, 43), rgb(8, 6, 179), rgb(85, 197, 253));
+  clip-path: circle(750px at right 900px);
+      transition: 0.5s;
+      z-index: 1;
+      
+
+}
+.relativo{
+  position: relative;
+ 
+}
+.abogado{ 
+  width:  32rem;
+  height: 60%;
+  z-index: 5;
+  position: absolute; 
+  top: 12rem;
+  right: 4rem;
+  animation: aumento 1.2s infinite alternate-reverse;
+  
+ 
+
+}
+@keyframes brincar{
+  0%{
+     top: 10%;
+  }
+  100%{
+    top: 0%;
+  }
+}
+.inicio{
+ background: linear-gradient(#cad3f9, #ffffff, #ffffff, #ffffff);
+  display: flex; 
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+
+
+ 
+}
+.inicio p{
+  max-width: 50rem;
+  position: relative;
+  left: -285px;
+  bottom: -14rem;
+  font-size: 20px;
+  line-height: 30px;
+ color: #33375a;
+ z-index: 3;
+}
+.inicio h1{ 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  font-weight: 600;
+  font-size: 4rem;
+  top: 14rem;
+  max-width: 53rem;
+  z-index: 3;
+  left: -19rem;
+  
+  
+  
+}
+
+h1 {
+  font-weight: 600;
+    display: inline-block;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+    position: relative;
+    
+}
+
+h1:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(18, 0, 108), rgb(42, 109, 255),rgb(0, 59, 185),rgb(72, 130, 255));
+    mix-blend-mode: screen; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+button{
+  transition: 1s all;
+}
+.btnt {
+  display: flex;
+  right: 4rem;
+ top: 1rem;
+ border: none;
+  position: fixed;
+  padding: 1rem 3.2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  color: white;
+  align-items: center;
+  background: linear-gradient(#1912e2, #566aff);
+ transition: 1.2s all ease; 
+}
+.whatsap{
+ margin-right: 5px;
+  
+}
+
+.btnt:hover{
+  background: linear-gradient(#3665ff, #95a1ff);
+  color: rgb(0, 26, 144);
+  transform: scale(1.1);
+}
+
+.navegador a {
+  padding-bottom: 4px;
+  font-size: 20px;
+  display: block;
+  color: #000000;
+  font-weight: 500;
+  margin-left: 40px;
+  text-decoration: none;
+  transition: 0.5s all ease;
+}
+.desplego li a:hover{
+  background-color: #95a1ff;
+}
+.header {
+  background: linear-gradient(#ffffff, #ffffff, #ffffff, #f3f4fa);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+ display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 35px;
+    z-index: 5;
+    transition: 1s all ease;
+}
+ul li {
+  list-style: none;
+  transition: 1s all ease;
+}
+.navegador{
+  transition: 1s all ease;
+}
+.navegador li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  transition: 1s all ease;
+}
+
+
+.navegador > li{
+  float: left;
+  transition: 1s all;
+}
+.navegador li:hover > ul{
+   display: block;
+   
+}
+.Logoname{
+  position: fixed;
+  left: 6rem;
+  top: 12px;
+  color: linear-gradient(#0a1684, #e7ebfb);
+
+}
+.desplego li a{
+  background-color: #030054;
+  padding: 10px 15px;
+  color: #ffffff;
+  transition: 1s all;
+}
+.logo {
+  left: 1rem;
+  top: -8px;
+  width: 6rem;
+  position: fixed;
+ 
+  transition: 0.5s;
+}
+
+
+.btnt2 {
+  left: 15rem;
+  bottom: 9rem;
+  font-size: 20px;
+  display: flex;
+ border: none;
+  position: absolute;
+  padding: 1rem 3.2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  color: white;
+  align-items: center;
+  background: linear-gradient(#1912e2, #566aff);
+ transition: 1.2s all ease; 
+ z-index: 3;
+}
+
+.btnt2:hover{
+  background: linear-gradient(#3665ff, #95a1ff);
+  color: rgb(0, 26, 144);
+  transform: scale(1.1);
+}
+@keyframes aumento {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width:1350px){
+  .Logoname{
+    display: none;
+  }
+  .inicio h1{
+    left: -12rem;
+    top: 11rem
+  }
+  .inicio p{
+ left: -175px;
+ bottom: -11rem;
+  }
+  .btnt2{
+    bottom: 10rem;
+  }
+  .circle{
+    clip-path: circle(600px at right 900px);
+  }
+ .abogado{
+  top: 19rem;
+  width: 20rem;
+  height: 40%;
+ }
+
+
+}
+
+@media (max-width:1000px){
+  
+  .inicio h1{
+    font-size: 3rem;
+    left: -4rem;
+    top: 11rem
+  }
+  .inicio p{
+      font-size: 18px;
+      left: -187px;
+      bottom: -11rem;
+      max-width: 32rem;
+  }
+  .btnt2{
+    bottom: 10rem;
+  }
+  .circle{
+    clip-path: circle(600px at right 900px);
+  }
+ .abogado{
+  top: 19rem;
+  width: 15rem;
+  height: 30%;
+  
+ }
+ .navegador{
+  position: relative;
+  left: -5rem;
+ }
+ .btnt{
+  right: 1rem;
+ }
+
+
+}
+@media (max-width:600px){
+  .navegador li{
+     display:none;
+  }
+  .Logoname{
+    display: flex;
+    font-size: 26px;
+      left: 69px;
+      top: 18px;
+      
+    
+
+  } 
+  .abogado {
+    top: 26rem;
+    width: 15rem;
+    height: 30%;
+    right: 2rem;
+}
+  .inicio p {
+    line-height: 21px;
+    font-size: 13px;
+    left: 0rem;
+    bottom: -6rem;
+    max-width: 20rem;
+}
+  .inicio h1 {
+    font-size: 2rem;
+    left: -3rem;
+    top: 6rem;
+}
+  
+  .logo {
+    top: -11px; 
+    left: -8px; 
+}
+  .nombri{
+    display:none;
+    
+  }
+  .header{
+    padding-bottom: 2rem;
+      background: linear-gradient(#eaedfd, #ffffff, #ffffff, #e5e9ff);
+  
+  }
+  .btnt{
+    right: 2rem;
+    padding: 1rem 1rem;
+    top:5px;
+  }
+ .btnt2{
+  left: 8rem;
+ }
+  .whatsap{
+    margin: 0;
+  }
+  
+}
