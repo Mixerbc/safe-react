@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Saferent/static/css/main.b472c501.css",
+    "main.js": "/Saferent/static/js/main.62c3c8e1.js",
+    "static/media/logo.svg": "/Saferent/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Saferent/index.html",
+    "main.b472c501.css.map": "/Saferent/static/css/main.b472c501.css.map",
+    "main.62c3c8e1.js.map": "/Saferent/static/js/main.62c3c8e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b472c501.css",
+    "static/js/main.62c3c8e1.js"
+  ]
+}
